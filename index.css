@@ -1,0 +1,175 @@
+
+html, body{
+    margin: 0;
+
+    padding: 0;
+
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+
+    min-height: 100%;
+    height: 100%;
+    max-height: 100%;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    color: red;
+    padding: 0;
+    margin:0;
+}
+
+
+.main-form {
+    margin-top: 25px;
+    border: 1px solid #d2cdcd;
+    width: auto;
+    border-radius: 50px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input[type="search"]{
+    text-align:left;
+    width:400px;
+    height: 34px;
+    margin-top: 3px;
+    padding: 13px 0;
+    margin-left: 15px;
+    border: none;
+}
+
+.form-box{
+    width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type="search"]:focus {
+    color: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.links li {
+    list-style: none;
+    float: left;
+    padding-left: 5px;
+}
+
+.list {
+    display: inline-block;
+}
+
+.links {
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.links-container{
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #5d5d5d;
+    padding: 7px 10px;
+    background-color: #f2f2f2;
+    border-radius: 3px;
+    border:1px solid #f2f2f2;
+}
+
+
+.links a:hover {
+    border-color:#c6c6c6;
+}
+
+.navigation-container {
+    right: 0;
+    height: 100%;
+}
+
+
+.nav-left {
+    position: absolute;
+    left: 0;
+    top: 15px;
+    left: 10px;
+}
+
+a {
+    font-family: arial;
+    font-size: 13px;
+}
+
+.nav-left a{
+    padding: 5px;
+    font-size: 13px;
+    font-family: arial;
+    color: black;
+    font-weight: lighter;
+}
+
+.nav-left li{
+    float: left;
+    margin-left: 15px;
+}
+
+.nav-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.nav-right a{
+    padding: 5px;
+    font-size: 13px;
+    font-family: arial;
+    color: black;
+    font-weight: lighter;
+}
+
+.nav-right li{
+    float: right;
+    margin-left: 15px;
+}
+
+.nav-right {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    left: 10px;
+}
+
+
+.content-container {
+    margin-top: 100px;
+}
+
+
+.image-google {
+    background-image: url(//www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
+    position: absolute;
+}
