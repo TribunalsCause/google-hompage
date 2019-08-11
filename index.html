@@ -4,6 +4,8 @@
     <title>google homepage</title>
     <link rel="stylesheet" type="text/css" href="index.css">
     <meta charset="utf-8">
+    <script type="text/javascript">let a = 10 let b = 7*a
+console.log(b)</script>
 </head>
 <body>
     <header>
@@ -19,8 +21,8 @@
             <ul>
                 <li><a href="">Gmail</a></li>
                 <li><a href="">Images</a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+                <li><a href="" class="more"></a></li>
+                <li><a href="" class="account"></a></li>
             </ul>
         </nav>
     </nav>
@@ -39,13 +41,17 @@
         <div class="form-box">
             <div class="main-form">
                 <div class="input-box">
-
                 </div>
 
-
                 <form>
-                    <input type="search" name="search" id="search">
+                    <input type="search" name="search" id="search" autocomplete="off">
                 </form>
+
+                <div class="voice-search">
+                    <a class="image-google">
+                        <img src="google-voice.png">
+                    </a>
+                </div>
             </div>
         </div>
 
@@ -59,7 +65,7 @@
         </div>
     </div>
 
-    <div class="image-google"></div>
+
 
 
 </body>
